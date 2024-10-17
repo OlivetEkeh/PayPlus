@@ -1,0 +1,57 @@
+/* src/components/SendMoney.css */
+
+.send-money {
+  background-color: #e8f5e9; /* Very light green background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Move the content box up */
+  padding: 2rem;
+}
+
+.send-money-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  margin-top: 3rem; /* Add margin to move it up a bit */
+}
+
+.send-money h1 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.send-money p {
+  color: #34495e;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center; /* Center align the buttons */
+  gap: 1rem;
+}
+
+.btn {
+  background-color: green;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: darkgreen;
+}
